@@ -75,7 +75,7 @@ export function ContactSection() {
               </Link>
               <div className="flex items-center gap-2 p-2 rounded-lg hover:bg-muted transition-colors">
                 <Mail className="h-5 w-5" />
-                <span>contact@nivandosoares.dev</span>
+                <span>sidvandoni@gmail.com</span>
               </div>
             </CardContent>
           </Card>

@@ -71,7 +71,7 @@ export function ExperienceSection() {
                   <CardDescription>Technologist - Development and System Analysis</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p>Currently pursuing the degree</p>
+                  <p>Currently pursuing the degree, complete in May, 2025</p>
                 </CardContent>
               </Card>
               <Card>

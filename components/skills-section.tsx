@@ -44,15 +44,20 @@ export function SkillsSection() {
               <Card>
                 <CardHeader>
                   <CardTitle>Backend Development</CardTitle>
-                  <CardDescription>Server-side technologies and databases</CardDescription>
+                  <CardDescription>Server-side technologies, low level programming and databases</CardDescription>
                 </CardHeader>
                 <CardContent className="flex flex-wrap gap-2">
+                  <Badge variant="secondary">Linux Bash Scripting</Badge>
                   <Badge variant="secondary">Node.js</Badge>
                   <Badge variant="secondary">Express.js</Badge>
                   <Badge variant="secondary">MongoDB</Badge>
                   <Badge variant="secondary">MySQL</Badge>
                   <Badge variant="secondary">SQLite</Badge>
                   <Badge variant="secondary">Redis</Badge>
+                  <Badge variant="secondary">PostgreSQL</Badge>
+                  <Badge variant="secondary">Git</Badge>
+                  <Badge variant="secondary">Low level programming</Badge>
+                  <Badge variant="secondary">RESTful APIs</Badge>
                 </CardContent>
               </Card>
             </TabsContent>
@@ -67,6 +72,7 @@ export function SkillsSection() {
                   <Badge variant="secondary">Dart</Badge>
                   <Badge variant="secondary">C</Badge>
                   <Badge variant="secondary">Java</Badge>
+                  <Badge variant="secondary">Typescript</Badge>
                 </CardContent>
               </Card>
             </TabsContent>
@@ -81,6 +87,7 @@ export function SkillsSection() {
                   <Badge variant="secondary">Heroku</Badge>
                   <Badge variant="secondary">Vercel</Badge>
                   <Badge variant="secondary">Google Cloud</Badge>
+                  <Badge variant="secondary">Fly.io</Badge>
                 </CardContent>
               </Card>
             </TabsContent>
@@ -108,41 +115,12 @@ export function SkillsSection() {
                 <CardContent className="flex flex-wrap gap-2">
                   <Badge variant="secondary">Markdown</Badge>
                   <Badge variant="secondary">NPM</Badge>
-                  <Badge variant="secondary">Linux</Badge>
                   <Badge variant="secondary">Notion</Badge>
                   <Badge variant="secondary">Git</Badge>
                 </CardContent>
               </Card>
             </TabsContent>
           </Tabs>
-        </div>
-        <div className="mt-16">
-          <h3 className="text-2xl font-bold text-center mb-8">LinkedIn Skill Assessments</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {[
-              "C Language",
-              "MongoDB",
-              "HTML",
-              "JavaScript",
-              "Node.js",
-              "Frontend Development",
-              "CSS",
-              "React JS",
-              "Agile Methodologies",
-              "Linux",
-              "MySQL",
-              "GIT",
-              "jQuery",
-              "OOP",
-              "Windows Bash",
-              "IT Operations",
-            ].map((skill) => (
-              <div key={skill} className="flex items-center gap-2 p-3 rounded-lg border">
-                <span className="text-amber-500">🏅</span>
-                <span>{skill}</span>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </section>
